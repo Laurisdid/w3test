@@ -1,41 +1,95 @@
 .centerbox {
-    margin-left: 20%;
-    background-color:white;
-    width: 60%;
-    margin-top: 5%;
-    display: inline-block;
+  margin-left: 20%;
+  background-color: white;
+  width: 65%;
+  margin-top: 5%;
+  display: inline-block;
 }
-.box{
-    
-    width: 18%;
-    float: left;
-    margin:20px;
-    box-sizing: content-box;
-    text-align: center;
-    }
-.ant{
-   
-    font-size: large;
-    color:orangered;
-    text-transform: uppercase;
+.box {
+  width: 18%;
+  float: left;
+  margin: 20px;
+  box-sizing: content-box;
+  text-align: center;
 }
-.tex{
-    padding-top:20px ;
-    color:grey;
-    font-size: smaller;
-    height: 170px;
+.ant {
+  word-spacing: 100vw;
+  text-align: center;
+  font-size: large;
+  color: orangered;
+  text-transform: uppercase;
 }
-.img{
-    height: 130px;
-    width: 130px;
+.tex {
+  padding-top: 20px;
+  color: grey;
+  font-size: smaller;
+  height: 170px;
+}
+.img {
+  padding: 13px;
+  padding-top: 0;
+  height: 100px;
+  width: 100px;
+  filter: invert(100%);
 }
 
-.fotonumb{
-    border:0;
-    margin:0;
-    float: left;
-    width: 15px;
-    border-radius: 40%;
-    border: 3px solid black;
-
+.fotonumb {
+  position: relative;
+  top: -10px;
+  left: -10px;
+  background-color: white;
+  border: 0;
+  margin: 0;
+  float: left;
+  width: 15px;
+  border-radius: 40%;
+  border: 3px solid lightblue;
+}
+.fotonumb2 {
+  position: relative;
+  top: -10px;
+  left: -10px;
+  background-color: white;
+  border: 0;
+  margin: 0;
+  float: left;
+  width: 15px;
+  border-radius: 40%;
+  border: 3px solid blue;
+}
+.fotonumb3 {
+  position: relative;
+  top: -10px;
+  left: -10px;
+  background-color: white;
+  border: 0;
+  margin: 0;
+  float: left;
+  width: 15px;
+  border-radius: 40%;
+  border: 3px solid orangered;
+}
+.fotonumb4 {
+  position: relative;
+  top: -10px;
+  left: -10px;
+  background-color: white;
+  border: 0;
+  margin: 0;
+  float: left;
+  width: 15px;
+  border-radius: 40%;
+  border: 3px solid gray;
+}
+.imgbox1 {
+  background-color: lightblue;
+}
+.imgbox2 {
+  background-color: blue;
+}
+.imgbox3 {
+  background-color: orangered;
+}
+.imgbox4 {
+  background-color: gray;
 }
